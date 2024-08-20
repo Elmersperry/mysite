@@ -2,8 +2,25 @@
 <html lang="ru">
   <head>
     <title>Главная страница</title>
+    <style>
+      td, th {
+        border: solid 1px rgb(247, 5, 5);
+      }
+      th {
+         color: rgb(240, 158, 5);"
+      }
+      table {
+        border-collapse: collapse;
+        width: 30%;
+        color: blue;
+      }
+      .table-1{color: chartreuse;}
+    </style>
   </head>
   <body>
+    <a href="#table-1">
+      <img src="Img/Снимок экрана (1).png" alt="Моё изображение" width="600px" height="600px"></img>
+    </a>
     <h1>Мой первый сайт!</h1>
     <p>Новый абзац.</p>
     <b>Жирный текст</b>
@@ -20,7 +37,6 @@
     <p>
       <u>Подчёркнутый текст</u>
     </p>
-
     <p>
       X
       <sub>i</sub>
@@ -50,4 +66,36 @@
       </ul>
     </details>
   </body>
+  <table id="table-1" class="table-1" style="border: solid 1px black;">
+   <thead>
+     <tr>
+       <th>Имя</th>
+       <th>Фамилия</th>
+       <th>Телефон</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr>
+       <td>Михаил</td>
+       <td>Иванов</td>
+       <td>1111111</td>
+     </tr>
+     <tr>
+      <td>Михаил</td>
+      <td>Иванов</td>
+      <td>12131323</td>
+     </tr>
+     <tr>
+      <td>Михаил</td>
+      <td>Иванов</td>
+      <td>856768578978</td>
+     </tr>
+     <tr>
+      <td>b</td>
+      <td>j</td>
+      <td>3</td>
+     </tr>
+        
+   </tbody> 
+  </table>
 </html>
